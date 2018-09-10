@@ -12,4 +12,4 @@
 [Crystal Collector](https://walterioo.github.io/unit-4-game/)
 
 ### Screenshot
-<img src="assets/images/screenshot.png" style="width: 200px, height:200px">
+<img src="assets/images/screenshot.png" style="width: 100px, height:100px">
