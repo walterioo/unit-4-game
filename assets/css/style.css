@@ -3,7 +3,8 @@ body {
     line-height: normal;
     background-color: black;
     background-image: url(../images/background.jpg);
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: beige;
 }
 
@@ -56,4 +57,21 @@ ul {
 .crystal-value,
 .total-score {
     font-size: 35px;
+}
+
+@media screen and (max-width: 960px){
+    .container {
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 640px){
+    .container {
+        width: 100%;
+    }
 }
