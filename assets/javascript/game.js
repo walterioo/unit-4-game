@@ -33,7 +33,7 @@ $(document).ready(function () {
         crystalNumber3 = Math.floor(Math.random() * 12 + 1);
         crystalNumber4 = Math.floor(Math.random() * 12 + 1);
         userScore = 0;
-        $(".total-score").text("0");
+        $(".total-score").empty();
         $("#random-number").text(randomNumber);
         $(".crystal-value").empty();
 

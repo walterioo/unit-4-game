@@ -1,0 +1,59 @@
+body {
+    font-family: 'Amatic SC', cursive;
+    line-height: normal;
+    background-color: black;
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+    color: beige;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+.instructions{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+ul {
+    font-size: 24px;
+    line-height: 1.5;
+    list-style-type: square;
+}
+
+.score-wrapper {
+    font-size: 35px;
+    text-align: left;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 40px;
+    
+}
+
+.crystal-wrapper {
+    display: inline-block;
+}
+
+.player-score {
+    padding-top: 20px;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 40px;  
+    display: inline-block;
+}
+
+.crystal-value,
+.total-score {
+    font-size: 35px;
+}
