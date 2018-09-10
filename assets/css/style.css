@@ -3,9 +3,10 @@ body {
     line-height: normal;
     background-color: black;
     background-image: url(../images/background.jpg);
-    background-size: cover;
+    background-size: auto auto;
     background-repeat: no-repeat;
     color: beige;
+    
 }
 
 .container {
