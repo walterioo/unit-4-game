@@ -25,6 +25,8 @@ $(document).ready(function () {
     $("#loses").text(loses);
     $("#current-score").text(userScore);
     $("#random-number").text(randomNumber);
+    $(".total-score").text("...");
+    $(".crystal-value").text("...")
 //Clears text and randomizes numbers when called
     function resetGame() {
         randomNumber = Math.floor(Math.random() * 100 + 20);
@@ -33,9 +35,9 @@ $(document).ready(function () {
         crystalNumber3 = Math.floor(Math.random() * 12 + 1);
         crystalNumber4 = Math.floor(Math.random() * 12 + 1);
         userScore = 0;
-        $(".total-score").empty();
+        $(".total-score").text("...");
         $("#random-number").text(randomNumber);
-        $(".crystal-value").empty();
+        $(".crystal-value").text("...");
 
     }
 
