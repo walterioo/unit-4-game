@@ -11,3 +11,5 @@
 ### Link
 [Crystal Collector](https://walterioo.github.io/unit-4-game/)
 
+###Screenshot
+<img src="assets/images/screenshot.png">
